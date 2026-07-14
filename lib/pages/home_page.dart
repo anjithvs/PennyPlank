@@ -374,23 +374,23 @@ class _HomePageState extends State<HomePage> {
     // COINS
       case 1020:
       // ₹20 coin - warm golden brass look
-        return const Color(0xFFC9A227);
+        return const Color(0xFF977C45);
 
       case 1010:
       // ₹10 coin - bi-metallic feel; using warm gold tone for card
-        return const Color(0xFFB68D2C);
+      return const Color(0xFFC79D3D);
 
       case 5:
       // ₹5 coin - metallic silver
-        return const Color(0xFFBFC5CE);
+        return const Color(0xFFCFB76D);
 
       case 2:
       // ₹2 coin - slightly darker steel silver
-        return const Color(0xFFAEB6BF);
+        return const Color(0xFFA3A08F);
 
       case 1:
       // ₹1 coin - classic silver steel
-        return const Color(0xFFD2D7DD);
+        return const Color(0xFF7A7C7D);
 
       default:
         return Colors.white;
